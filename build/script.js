@@ -35,7 +35,7 @@
 				// BEGIN Clara.io JSON loader code
 
 				var loader = new THREE.ObjectLoader();
-loader.load("untitled-scene.json",function ( obj ) {
+loader.load("buddha.json",function ( obj ) {
      scene.add( obj );
 });
 
